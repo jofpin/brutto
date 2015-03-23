@@ -63,7 +63,7 @@ With letters and numbers, and increased scope=(1-8 )
 # call brutto
 test = Brutto()
 
-for example in brutto(scope=8, letters=True, numbers=True, symbols=False):
+for example in test.increase(scope=8, letters=True, numbers=True, symbols=False):
     print example
 ```
 
