@@ -42,6 +42,9 @@ for example in test.increase(letters=True, numbers=True, symbols=False, space=Fa
 
 ### Default settings test with (direct)
 ```python
+# call brutto
+example = Brutto()
+
 for example in bruteforce.direct(4):
     print example
 ```
